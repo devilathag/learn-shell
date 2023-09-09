@@ -1,12 +1,16 @@
 echo to check program status
 lss -ltr
-if [ $? -ne 0 ]; then
-  echo it's failure
-  exit 1
+if [ $? -eq 0 ]; then
+  echo sucess
+else
+  echo failure
+  exit
 fi
 ls -ltr
-if [ $? -ne 0 ]; then
-   echo it's failure
+if [ $? -eq 0 ]; then
+   echo sucess
+else
+  echo failure
    exit 1
  fi
  echo prog sucess
