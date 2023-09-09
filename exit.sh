@@ -1,11 +1,11 @@
 echo to check program status
 lss -ltr
-if $? -ne 0 ; then
+if [$? -ne 0] ; then
   echo it's failure
   exit1
 fi
 lss -ltr
-if $? -ne 0 ; then
+if [$? -ne 0] ; then
    echo it's failure
    exit1
 fi
