@@ -1,6 +1,6 @@
 echo "hello world"
-P1=latha
-P2=mahesh
+P1=$1
+P2=$2
 echo HI $P1
 echo Hi $P2
 echo HOw are you $P1
