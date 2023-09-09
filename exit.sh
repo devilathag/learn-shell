@@ -1,5 +1,5 @@
 echo to check program status
-lss -ltr
+ls -ltr
 if [ $? -eq 0 ]; then
   echo sucess
 else
