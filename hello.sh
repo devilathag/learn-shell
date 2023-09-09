@@ -1,7 +1,7 @@
 echo "hello world"
 P1=$1
 P2=$2
-P3=$3
+P3=date
 echo HI $P1
 echo Hi $P2
 echo HOw are you $P1
