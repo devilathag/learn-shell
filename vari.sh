@@ -1,5 +1,9 @@
 echo -n enter username:
-read username
-eco
+read -s username
+echo
 echo -n enter password:
-read password
+read -s password
+echo
+echo username: $username
+echo password : $password
+
