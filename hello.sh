@@ -1,3 +1,3 @@
 echo "hello world"
-varible a=15
-print the value $a
+a=15
+echo the value $a
