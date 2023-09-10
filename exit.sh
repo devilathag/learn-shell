@@ -14,3 +14,5 @@ else
    exit 1
  fi
  echo prog sucess
+ echo -e "\e[31m failure\e[0m"
+ echo -e "\e[32m sucess\e[0m"
