@@ -2,5 +2,5 @@
   hosts: localhost
   tasks:
     - name: grt a parameter from parameter store
-      ansible.builting_debug:
+      ansible.builting.debug:
         msg: "{{lookup('aws_ssm','test',region='us_east-i)}}"
